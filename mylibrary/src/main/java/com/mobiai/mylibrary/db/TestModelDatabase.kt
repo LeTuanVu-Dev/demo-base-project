@@ -8,7 +8,6 @@ import androidx.room.RoomDatabase
 
 @Database(entities = [ModelTestDB::class], version = 1)
 abstract class TestModelDatabase : RoomDatabase(){
-
     abstract fun getModelTestDao () : ModelTestDao
 
     companion object {
